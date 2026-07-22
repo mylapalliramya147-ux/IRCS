@@ -1,0 +1,54 @@
+.events{
+    padding:80px;
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.events h2{
+    font-size:40px;
+    color:#d32f2f;
+    margin-bottom:50px;
+}
+
+.events-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.event-card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.event-card:hover{
+    transform:translateY(-8px);
+}
+
+.event-card h3{
+    color:#d32f2f;
+    margin-bottom:10px;
+}
+
+.event-card h4{
+    color:#666;
+    margin-bottom:15px;
+}
+
+.event-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+.event-card button{
+    margin-top:20px;
+    background:#d32f2f;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
